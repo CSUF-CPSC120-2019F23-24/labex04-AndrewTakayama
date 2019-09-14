@@ -58,7 +58,9 @@ int main()
     << std::hex << " (0x" << my_int2 << ")\n";
 
 
-
+// Since the int data type is larger than short it has more storage to roll over
+// to the positive side while the short does not have enough room so it has to
+// go to negative.
 
 
   std::cout << std::endl; // blank line to separate output from the different exercises
@@ -82,6 +84,9 @@ int main()
   std::cout << ", after adding 1: " << std::dec << my_int3
     << std::hex << " (0x" << my_int3 << ")\n";
 
+    // Since the int data type is larger than short it has more storage to roll over
+    // to the positive side while the short does not have enough room so it has to
+    // go to negative.
 
   // ** not required, but for more practice, feel free to add code below which **
   // ** tests underflow and overflow using other data types **
