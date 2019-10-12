@@ -10,8 +10,8 @@ int main()
   char my_char1 = 'J';
   short my_short1 = 1;
   std::cout << "The ASCII value for " << my_char1 << " is " << my_short1 << std::endl;
-  std::cout << static_cast<char> (my_char1);
-  std::cout << static_cast<short> (my_short1);
+  std::cout << static_cast<short> (my_char1);
+  std::cout << static_cast<char> (my_short1);
 
   std::cout << std::endl; // blank line to separate output from the different exercises
 
